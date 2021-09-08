@@ -1,3 +1,18 @@
+/*===============================
+SOMMARIO:
+1. RESET
+2. TIPOGRAFIA
+    - classi utilità testo
+3. LAYOUT
+    A: HEADER
+    B: MAIN
+4. CLASSI UTILITA'
+    - containers
+    - bg-colors
+===============================*/
+
+/*----------- RESET -----------*/
+
 * {
   padding: 0;
   margin: 0;
@@ -10,12 +25,19 @@
   clear: both;
 }
 
+/*----------- TIPOGRAFIA -----------*/
+
 :root {
   font-family: "Rubik Mono One", sans-serif;
 }
 
 h1 {
   font-size: 40px;
+}
+
+/*classi utilità testo*/
+
+.text-center {
   text-align: center;
 }
 
@@ -27,7 +49,9 @@ h1 {
   color: green;
 }
 
-/*HEADER*/
+/*-------------- LAYOUT --------------*/
+
+/*A. HEADER*/
 
 header {
   position: fixed;
@@ -59,7 +83,7 @@ a.pulsanti_nav {
   text-decoration: none;
 }
 
-/*MAIN*/
+/*B. MAIN*/
 
 .modello_di_punta {
   width: 45%;
@@ -68,6 +92,10 @@ a.pulsanti_nav {
 .modello_di_punta img {
   width: 100%;
 }
+
+/*----------- CLASSI UTILITA' -----------*/
+
+/*containers*/
 
 .full-page-container {
   position: relative;
@@ -81,6 +109,7 @@ a.pulsanti_nav {
   transform: translate(-50%, -50%);
 }
 
+/*bg-colors*/
 .bg-red {
   background: red;
 }
