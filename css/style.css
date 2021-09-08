@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+:root {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+/*HEADER*/
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+  padding: 30px 10px;
+}
+
+a.pulsanti_nav {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 50%;
+
+  color: black;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*MAIN*/
