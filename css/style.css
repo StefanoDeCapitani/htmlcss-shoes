@@ -14,11 +14,26 @@
   font-family: "Rubik Mono One", sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+.green-text {
+  color: green;
+}
+
 /*HEADER*/
 
 header {
   position: fixed;
+  z-index: 10;
   width: 100%;
+  padding: 30px 40px;
 }
 
 header ul {
@@ -28,7 +43,7 @@ header ul {
 
 header li {
   display: inline-block;
-  padding: 30px 10px;
+  padding: 10px;
 }
 
 a.pulsanti_nav {
@@ -45,3 +60,35 @@ a.pulsanti_nav {
 }
 
 /*MAIN*/
+
+.modello_di_punta {
+  width: 45%;
+}
+
+.modello_di_punta img {
+  width: 100%;
+}
+
+.full-page-container {
+  position: relative;
+  height: 100vh;
+}
+
+.container-centrato {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-green {
+  background: green;
+}
+
+.bg-yellow {
+  background: yellow;
+}
